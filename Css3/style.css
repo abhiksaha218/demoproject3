@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 1500px;
+    height: 700px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header .title{
+    font-size: 30px;
+}
+
+svg{
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    background-color: blue;
+}
+
+.container header h1{
+    margin: 0 0 0 350px;
+    font-family: Arial;
+}
+
+.container main .mapping{
+    margin: 0 0 0 20px;
+}
+
+.container main , 
+.container main .form-drag .review{
+    display: flex;
+}
+
+.container main .form-drag .review label{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.container main .form-drag .review textarea{
+    width: 200px;
+    height: 100px;
+    margin: 10px 0 0 0;
+}
+
+.container main button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px 0 0 150px;
+    background-color: orange;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.container main button:hover{
+    background-color: yellow;
+}
+
+p{
+    margin: 0 0 0 70px;
+}
+#div1 {
+    width: 420px;
+    height: 140px;
+    padding: 15px;
+    margin: 0 0 0 70px;
+    border: 2px solid black;
+  }
+
+#drag1 {
+    margin: 0 0 0 70px;
+}
+
+#terms2 {
+    text-decoration: none;
+    color: black;
+}
